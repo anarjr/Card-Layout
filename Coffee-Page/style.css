@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #fff0f2, #f8d0dc);
+    font-family: arial;
+}
+
+#contend {
+    width: 90%;
+    max-width: 1000px;
+    min-height: 560px;
+    background-color: #3d1520;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 45px 0 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.logo i {
+    font-size: 22px;
+    color: #f3d9bd;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+    min-height: 450px;
+}
+
+.main-text {
+    max-width: 380px;
+}
+
+.header-text-mini h3 {
+    margin: 0 0 10px 0;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    font-weight: normal;
+    color: #f5a11f;
+}
+
+.header-text h1 {
+    margin: 0 0 20px 0;
+    font-size: 28px;
+    line-height: 1.4;
+    color: white;
+}
+
+.text p {
+    margin: 0 0 30px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons a {
+    padding: 12px 25px;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.buttons .order {
+    background-color: #f5a11f;
+    border: 1px solid #f5a11f;
+}
+
+.buttons .contact {
+    border: 1px solid white;
+}
+
+.header-photo img {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+}
