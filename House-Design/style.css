@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+
+#contend {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./image/1000_F_584589007_qYovrisVPQ7c7lRozBhtpOskThSYHnna.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px 0 100px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a {
+    padding-bottom: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a.active {
+    border-bottom: 3px solid #009c8f;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    text-align: center;
+}
+
+.header-text h1 {
+    margin: 0 0 20px 0;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text p {
+    max-width: 450px;
+    margin: 0 0 30px 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons a {
+    padding: 13px 45px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.buttons .watch {
+    background-color: #009c8f;
+    border: 2px solid #009c8f;
+}
+
+.buttons .subscribe {
+    border: 2px solid #009c8f;
+}
