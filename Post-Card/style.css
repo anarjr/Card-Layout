@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: #c4795a;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    min-height: 100vh;
+}
+
+.card {
+    width: 320px;
+    background-color: white;
+    border-radius: 18px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.header-photo img {
+    display: block;
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+.header-text-mini {
+    margin-top: 22px;
+    font-size: 12px;
+}
+
+.header-text h2 {
+    margin: 5px 0 22px 0;
+    font-size: 26px;
+    color: black;
+}
+
+.text p {
+    margin: 0;
+    padding: 0 35px 30px 35px;
+    min-height: 78px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 82px;
+    color: white;
+}
+
+.footer div {
+    flex: 1;
+}
+
+.footer hr {
+    width: 1px;
+    height: 100%;
+    margin: 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.footer h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.footer sup {
+    font-size: 12px;
+}
+
+.footer span {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.pink .header-text-mini {
+    color: #ff1a8c;
+}
+
+.pink .footer {
+    background-color: #ff0a7f;
+}
+
+.orange .header-text-mini {
+    color: #ff4d00;
+}
+
+.orange .footer {
+    background-color: #ff5010;
+}
+
+.green .header-text-mini {
+    color: #00b33c;
+}
+
+.green .footer {
+    background-color: #00c040;
+}
